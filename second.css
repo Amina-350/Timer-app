@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(dessert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.title h1{
+    padding-top:5vh;
+    color:white;
+    text-transform: uppercase;
+}
+.ind input{
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    margin-left:2vw;
+}
+.ind{
+    margin-top: 5vh;
+}
